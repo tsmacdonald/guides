@@ -102,7 +102,6 @@ Now, define your new controller like so:
 ```app/controllers/index.js
 export default Ember.Controller.extend({
   filteredList: null,
-  model: null,
   actions: {
     autoComplete(param) {
       if(param !== "") {
